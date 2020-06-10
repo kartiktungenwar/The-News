@@ -1,0 +1,40 @@
+body{ 
+      font-family: 'Oswald', sans-serif;
+    }
+    h1 {
+    font-size: 4rem;
+}
+h1::before,
+h1::after {
+    display: inline-block;
+    content: "";
+    border-top: .3rem solid black;
+    width: 20%;
+    margin: 0 1rem;
+    transform: translateY(-1rem);
+}
+    .flexcss{
+      display:flex;
+      flex-direction: row;
+      flex-basis: 300px;
+      flex-wrap: wrap;
+      margin-top: 15px; 
+    }
+    .div{
+        margin-bottom: 5px; 
+        margin-left: 1px;
+        margin-right: 1px;
+    }
+    .text {
+        margin: 4px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2; /* number of lines to show */
+        -webkit-box-orient: vertical;
+     }
+     .text_right {
+        text-align: right;
+        margin: 4px;
+      }
+       
