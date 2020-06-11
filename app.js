@@ -12,7 +12,7 @@ node1.className = "list-unstyled";
 
 node.append(node1);
 
-fetch('http://newsapi.org/v2/top-headlines?country=in&apiKey=952da71b07954070b1fd98d174b01d11')
+fetch('https://newsapi.org/v2/top-headlines?country=in&apiKey=952da71b07954070b1fd98d174b01d11')
 .then((res)=>{
         return res.json();
 }).then((res2)=>{
@@ -97,8 +97,8 @@ fetch(cat)
 }
 
 topHeadlines(node)
-otherNews(node8,'http://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=952da71b07954070b1fd98d174b01d11')
-otherNews(node9,'http://newsapi.org/v2/top-headlines?country=in&category=entertainment&apiKey=952da71b07954070b1fd98d174b01d11')
-otherNews(node10,'http://newsapi.org/v2/top-headlines?country=in&category=health&apiKey=952da71b07954070b1fd98d174b01d11')
-otherNews(node11,'http://newsapi.org/v2/top-headlines?country=in&category=sports&apiKey=952da71b07954070b1fd98d174b01d11')
-otherNews(node12,'http://newsapi.org/v2/top-headlines?country=in&category=technologys&apiKey=952da71b07954070b1fd98d174b01d11')
+otherNews(node8,'https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=952da71b07954070b1fd98d174b01d11')
+otherNews(node9,'https://newsapi.org/v2/top-headlines?country=in&category=entertainment&apiKey=952da71b07954070b1fd98d174b01d11')
+otherNews(node10,'https://newsapi.org/v2/top-headlines?country=in&category=health&apiKey=952da71b07954070b1fd98d174b01d11')
+otherNews(node11,'https://newsapi.org/v2/top-headlines?country=in&category=sports&apiKey=952da71b07954070b1fd98d174b01d11')
+otherNews(node12,'https://newsapi.org/v2/top-headlines?country=in&category=technologys&apiKey=952da71b07954070b1fd98d174b01d11')
